@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background-color: #3DC5FF;
+}
+
+.leaderboard_container {
+    height: 100vh;
+}
+
+.gradient_container {
+    height: 355px;
+    border-radius: 500px 462px 0px 0px;
+    background: linear-gradient(180deg, #1F83F8 14.1%, rgba(251, 251, 255, 0.00) 100%);
+    justify-content: center;
+}
+
+.title {
+    color: #FFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.leaderboard_track_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.leaderboard_tracker {
+    background: linear-gradient(#1F83F8, #ffff);
+    height: 450px;
+    width: 650px;
+    margin-top: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.score_container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 42rem;
+    flex-direction: column;
+
+}
+
+.score_sub_container {
+    background-color: #ffff;
+    height: 60px;
+    width: 650px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.vector_container {
+    width: 400px;
+    position: relative;
+}
+
+.winner_crown {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+
+.Ellipse-one {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: 54px;
+}
+
+.crown_container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+}
+
+.winner-label {
+    margin-top: 85px;
+}
+
+
+.crown_silver_container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    margin-top: 120px;
+}
+
+.crown_bronze_container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    margin-top: 250px;
+}
+
+.backQuiz {
+    width: 200px;
+    height: 50px;
+    background-color: dodgerblue;
+    border: 5px #71d0fa solid;
+    border-radius: 20px;
+    font-size: larger;
+    color: white;
+}
+
+.btn-div {
+    justify-content: center;
+    display: flex;
+    margin: 2rem;
+}

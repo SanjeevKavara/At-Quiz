@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+    <link rel="stylesheet" href="sec.css">
+</head>
+
+<body>
+
+    <div id="quesCount">1/15</div>
+    <div id="quiz-container">
+        <div class="questions">
+            <h2 id="question">Who holds the record for the most Grand Slam tennis titles in the men's singles category?
+            </h2>
+            <div id="options">
+                <li class="option"><span id="option0" onclick="calcScore(this)">one</span></li>
+                <li class="option"><span id="option1" onclick="calcScore(this)">two</span></li>
+                <li class="option"><span id="option2" onclick="calcScore(this)">three</span></li>
+                <li class="option"><span id="option3" onclick="calcScore(this)">four</span></li>
+            </div>
+
+            <div class="buttons">
+                <button type="button" class="next">Next</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- <div id="scoreboard">
+        <h2 id="score-title">Your Score</h2>
+        <h2 id="score"></h2>
+        <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+        <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button>
+    </div> -->
+    <script src="./sec.js"></script>
+</body>
+
+</html>
